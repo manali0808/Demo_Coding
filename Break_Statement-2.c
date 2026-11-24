@@ -13,7 +13,6 @@ int main()
         }
         else
         {
-            printf("Enter next number:");
             attempts++;
         }
     }
