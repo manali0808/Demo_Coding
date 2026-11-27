@@ -18,9 +18,9 @@ int main()
         scanf("%d",&ticket);
         if(ticket>0)
         {
-            total_ticket=price*ticket;
+            total_ticket=(price*ticket);
             printf("Booking Successful\n");
-            printf("Amount=Rs.%d\n",ticket*price);
+            printf("Amount=Rs.%d\n",total_ticket);
         }
         else
         {
@@ -28,7 +28,7 @@ int main()
         }
         break;
         case 2:
-        printf("Total ticket boked=%d\n",total_ticket);
+        printf("Total ticket boked=%d\n",ticket);
         break;
         case 3:
         printf("Exiting System\n");
